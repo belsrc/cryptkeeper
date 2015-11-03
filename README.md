@@ -6,7 +6,7 @@ Some simple wrapper methods to help manage some crypto and crypto-random functio
 
 Install the package
 ```bash
-npm install cryptkeeper --save
+npm install @belsrc/cryptkeeper --save
 ```
 
 Then simply include the module and add it into the application.
