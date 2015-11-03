@@ -1,0 +1,44 @@
+{
+  "name": "cryptkeeper",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --reporter spec --ui tdd --recursive test"
+  },
+  "author": "Bryan Kizer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belsrc/cryptkeeper.git"
+  },
+  "keywords": [
+    "hash",
+    "crypto",
+    "cryptography",
+    "base64",
+    "UUID",
+    "V4",
+    "random",
+    "number",
+    "hex",
+    "HMAC",
+    "MD5",
+    "SHA1",
+    "SHA256",
+    "PBKDF2",
+    "bcrypt"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belsrc/cryptkeeper/issues"
+  },
+  "homepage": "https://github.com/belsrc/cryptkeeper#readme",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "supertest": "^1.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.5"
+  }
+}
