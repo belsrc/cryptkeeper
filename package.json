@@ -1,6 +1,6 @@
 {
   "name": "@belsrc/cryptkeeper",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -26,19 +26,25 @@
     "SHA1",
     "SHA256",
     "PBKDF2",
-    "bcrypt"
+    "bcrypt",
+    "argon2"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/belsrc/cryptkeeper/issues"
   },
   "homepage": "https://github.com/belsrc/cryptkeeper#readme",
+  "engines": {
+    "node": ">=4.3.2"
+  },
   "devDependencies": {
-    "chai": "^3.4.0",
-    "mocha": "^2.3.3",
-    "supertest": "^1.1.0"
+    "chai": "3.5.0",
+    "chai-as-promised": "6.0.0",
+    "mocha": "3.1.0"
   },
   "dependencies": {
-    "bcrypt": "^0.8.5"
+    "argon2": "0.14.1",
+    "bcrypt": "0.8.7",
+    "bluebird": "3.4.6"
   }
 }
