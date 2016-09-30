@@ -14,7 +14,7 @@ npm install @belsrc/cryptkeeper --save
 
 Then simply include the module and add it into the application.
 ```javascript
-var cryptkeeper = require('cryptkeeper');
+var cryptkeeper = require('@belsrc/cryptkeeper');
 ```
 
 ### Testing
